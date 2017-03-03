@@ -1,0 +1,8 @@
+language: java
+java:
+ - openjdk8
+ - oraclejdk8
+build:
+ ci:
+  - which java
+  - java -version
