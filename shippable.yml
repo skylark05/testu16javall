@@ -6,3 +6,6 @@ build:
  ci:
   - which java
   - java -version
+  - ant -version
+  - gradle -version
+  - mvn -version
